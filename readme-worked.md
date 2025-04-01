@@ -46,4 +46,43 @@ Voila, you see surrounding bles are on the console.
 
 <IMG src="https://github.com/cobwebkanamachi/platform-n-able/blob/mytest-bbcmicro-pio/worked.jpg">
 <BR>
+<PRE>
+Addendum: 
+Binaries made were bellow( I stopped on the way, bellow are not all).
+[cobweb@BLE-client-test]$find . -name "firmware.elf" -print
+./.pio/build/adafruit_clue_nrf52840/firmware.elf
+./.pio/build/adafruit_cplaynrf52840/firmware.elf
+./.pio/build/adafruit_feather_nrf52832/firmware.elf
+./.pio/build/adafruit_feather_nrf52840/firmware.elf
+./.pio/build/adafruit_feather_nrf52840_sense/firmware.elf
+./.pio/build/adafruit_itsybitsy_nrf52840/firmware.elf
+./.pio/build/bbcmicrobit/firmware.elf
+./.pio/build/bbcmicrobitv2/firmware.elf
+./.pio/build/bluey/firmware.elf
+./.pio/build/bluz_dk/firmware.elf
+./.pio/build/BT5032A_TB/firmware.elf
+./.pio/build/BT5040/firmware.elf
+./.pio/build/calliope_mini/firmware.elf
+./.pio/build/generic_nrf51822_xxaa/firmware.elf
+./.pio/build/generic_nrf51822_xxac/firmware.elf
+./.pio/build/generic_nrf52810/firmware.elf
+./.pio/build/generic_nrf52832/firmware.elf
+./.pio/build/generic_nrf52833/firmware.elf
+./.pio/build/generic_nrf52840/firmware.elf
+./.pio/build/hackaBLE/firmware.elf
+./.pio/build/hackaBLE_v2/firmware.elf
+./.pio/build/ng_beacon/firmware.elf
+./.pio/build/nrf51_dk/firmware.elf
+./.pio/build/nrf51_dongle/firmware.elf
+./.pio/build/nrf52832_dk/firmware.elf
+./.pio/build/nrf52833_dk/firmware.elf
+./.pio/build/nrf52840_dk/firmware.elf
+./.pio/build/nrf52840_dongle/firmware.elf
+./.pio/build/oshchip/firmware.elf
+./.pio/build/redbear_blenano/firmware.elf
+./.pio/build/redbear_blenano2/firmware.elf
+./.pio/build/redbear_blend2/firmware.elf
+./.pio/build/redbear_nRF51822/firmware.elf
+(stoppped by me)
+</PRE>
 Enjoy!
