@@ -9,7 +9,14 @@ platformio project init
 3. check and write platformio.ini
 put this repo's platform.io to your project dir of top.
 My case was : /mnt/c/Users/user/Documents/PlatformIO/Projects/platform-n-able
-more platformio.ini
+-- cut here --
+[env:bbcmicrobit]
+platform = https://github.com/h2zero/platform-n-able.git@^1.0.0
+framework = arduino
+lib_deps = h2zero/NimBLE-Arduino@^1.4.0
+board = bbcmicrobit
+-- cut here --
+save file, then more platformio.ini (check).
 4. if you did not have installed scons for your python3, pls install it.
 pio run -v
 pip3 install scons
@@ -29,7 +36,7 @@ nm libFrameworkArduino.a |grep setup
 find . -name main.cpp.o -print
 nm ./.pio/build/bbcmicrobit/FrameworkArduino/main.cpp.o
 cd examples/BLE-client*/src
-more *.ini
+more *.ini -> you have no need to write platformio.ini (prewrote here).
 pio run -v
 YES, you can make main.cpp on subdir examples/BLE-client*/src
 7. connect micro:bit with usb to your pc, then open teraterm or favorite terminal.
