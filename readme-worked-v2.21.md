@@ -46,4 +46,9 @@ Enjoy!
 footnote:
 I test on Arduino IDE, Nimble-Arduino and n-able-arduino. I saw something too similar with this repo.
 And g++ not compiled them, so I tested this repo with arduino setting in platformio.ini. it succeed.
+Why I did on Arduino IDE, that is hinted usb uart not worked simply build this for v2.21.
+I did not know V2.21 has changed USB Controller chip with previous versions of bbc:micro.
+I saw usb uart not worked, so I seek difference with v2.21 and previous versions.
+And Arduino and Make Code perhaps already adjust usb controller change.
+So I did Arduino experiment and back to pio.
 </pre>
