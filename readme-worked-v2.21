@@ -9,4 +9,7 @@ procedures:
 6. openocd + gdb -> file firmware.elf & load & continue
 7. you get grin.
 
+<img src="https://github.com/cobwebkanamachi/platform-n-able/blob/mytest-bbcmicro-pio/workedV221-1.jpg">
+<img src="https://github.com/cobwebkanamachi/platform-n-able/blob/mytest-bbcmicro-pio/workedV221-2.jpg">
+
 Enjoy!
