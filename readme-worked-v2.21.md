@@ -42,3 +42,8 @@ brief procedures:
 <img src="https://github.com/cobwebkanamachi/platform-n-able/blob/mytest-bbcmicro-pio/workedV221-2.jpg">
 
 Enjoy!
+<pre>
+footnote:
+I test on Arduino IDE, Nimble-Arduino and n-able-arduino. I saw something too similar with this repo.
+And g++ not compiled them, so I tested this repo with arduino setting in platformio.ini. it succeed.
+</pre>
