@@ -36,7 +36,7 @@ brief procedures:
 6. firmware.elf made
 7. openocd + gdb -> file firmware.elf & load & continue
 8. you get grin.
-   baud : 115200, 8N1S</PRE>
+   baud : 115200, 8N1S(same as original, if not matched, that's my mistake sorry)</PRE>
 <BR>
 <img src="https://github.com/cobwebkanamachi/platform-n-able/blob/mytest-bbcmicro-pio/workedV221-1.jpg">
 <img src="https://github.com/cobwebkanamachi/platform-n-able/blob/mytest-bbcmicro-pio/workedV221-2.jpg">
