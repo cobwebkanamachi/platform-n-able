@@ -1,9 +1,10 @@
-I got micro:bit v2.21 worked.
-
-procedures:
+I got micro:bit v2.21 worked with this repo yesterday (2025/04/05).
+<PRE>
+brief procedures:
 1. clone this repo
    git clone reponame --recursively
-3. replace two platformio.ini with this repo's one.
+3. replace two platformio.ini with this repo's one(NOT INCL. THIS REPO, PLS PASTE BELLOW).
+  --- CUT HERE ---
   $pwd
   /mnt/c/users/user/Documents/platformio/Projects/platform-n-able-v2
   [env:bbcmicrobit_v2]
@@ -11,6 +12,7 @@ procedures:
   framework = arduino
   lib_deps = https://github.com/h2zero/NimBLE-Arduino.git@^2.1.1
   board = bbcmicrobitv2
+  --- CUT HERE ---
   $pwd
   /mnt/c/users/user/Documents/platformio/Projects/platform-n-able-v2/examples/BLE-client-test 
   [env]
@@ -34,7 +36,8 @@ procedures:
 6. firmware.elf made
 7. openocd + gdb -> file firmware.elf & load & continue
 8. you get grin.
-   baud : 115200, 8N1S
+   baud : 115200, 8N1S</PRE>
+<BR>
 <img src="https://github.com/cobwebkanamachi/platform-n-able/blob/mytest-bbcmicro-pio/workedV221-1.jpg">
 <img src="https://github.com/cobwebkanamachi/platform-n-able/blob/mytest-bbcmicro-pio/workedV221-2.jpg">
 
